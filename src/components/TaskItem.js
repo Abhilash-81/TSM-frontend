@@ -18,7 +18,7 @@ const TaskItem = () => {
 
   async function handleDelete(id){
     try {
-      const response=await axios.delete("http://localhost:3000/api/v1/"+id);
+      const response=await axios.delete("https://tsm-spf0.onrender.com/api/v1/"+id);
       naviagte('/');
     } catch (error) {
       console.error('Error deleting task:', error);

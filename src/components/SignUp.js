@@ -30,7 +30,7 @@ const Signup = () => {
         password,
       };
       const response = await Axios.post(
-        "http://localhost:3000/signup",
+        "https://tsm-spf0.onrender.com/signup",
         userData
       );
       setErrorMessage("SignUp Successful");
